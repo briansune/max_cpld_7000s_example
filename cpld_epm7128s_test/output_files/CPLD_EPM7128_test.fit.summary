@@ -1,0 +1,9 @@
+Fitter Status : Successful - Tue Aug 27 22:33:16 2019
+Quartus II 64-Bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : CPLD_EPM7128_test
+Top-level Entity Name : test
+Family : MAX7000S
+Device : EPM7128SLC84-15
+Timing Models : Final
+Total macrocells : 16 / 128 ( 13 % )
+Total pins : 7 / 68 ( 10 % )

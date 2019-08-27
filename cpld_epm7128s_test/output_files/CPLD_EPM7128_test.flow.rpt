@@ -1,0 +1,116 @@
+Flow report for CPLD_EPM7128_test
+Tue Aug 27 22:34:07 2019
+Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; Flow Summary                                                          ;
++---------------------------+-------------------------------------------+
+; Flow Status               ; Successful - Tue Aug 27 22:34:07 2019     ;
+; Quartus II 64-Bit Version ; 12.1 Build 177 11/07/2012 SJ Full Version ;
+; Revision Name             ; CPLD_EPM7128_test                         ;
+; Top-level Entity Name     ; test                                      ;
+; Family                    ; MAX7000S                                  ;
+; Device                    ; EPM7128SLC84-15                           ;
+; Timing Models             ; Final                                     ;
+; Total macrocells          ; 16 / 128 ( 13 % )                         ;
+; Total pins                ; 7 / 68 ( 10 % )                           ;
++---------------------------+-------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 08/27/2019 22:33:14 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; CPLD_EPM7128_test   ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                              ;
++------------------------------+-----------------------------+-------------------+-------------+----------------+
+; Assignment Name              ; Value                       ; Default Value     ; Entity Name ; Section Id     ;
++------------------------------+-----------------------------+-------------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID        ; 11967469382.156691639409372 ; --                ; --          ; --             ;
+; ECO_OPTIMIZE_TIMING          ; On                          ; Off               ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT       ; Verilog Hdl                 ; --                ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL          ; ModelSim-Altera (Verilog)   ; <None>            ; --          ; --             ;
+; FITTER_EFFORT                ; Standard Fit                ; Auto Fit          ; --          ; --             ;
+; OPTIMIZE_HOLD_TIMING         ; Off                         ; --                ; --          ; --             ;
+; OPTIMIZE_MULTI_CORNER_TIMING ; On                          ; Off               ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY     ; output_files                ; --                ; --          ; --             ;
+; SMART_RECOMPILE              ; On                          ; Off               ; --          ; --             ;
+; TOP_LEVEL_ENTITY             ; test                        ; CPLD_EPM7128_test ; --          ; --             ;
++------------------------------+-----------------------------+-------------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:00     ; 1.0                     ; 419 MB              ; 00:00:01                           ;
+; Fitter                    ; 00:00:01     ; 1.0                     ; 427 MB              ; 00:00:00                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 391 MB              ; 00:00:01                           ;
+; Assembler                 ; 00:00:00     ; 1.0                     ; 376 MB              ; 00:00:00                           ;
+; Total                     ; 00:00:02     ; --                      ; --                  ; 00:00:02                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; Briansune-PC     ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; Briansune-PC     ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; Briansune-PC     ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; Briansune-PC     ; Windows 7 ; 6.1        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off CPLD_EPM7128_test -c CPLD_EPM7128_test
+quartus_fit --read_settings_files=off --write_settings_files=off CPLD_EPM7128_test -c CPLD_EPM7128_test
+quartus_sta CPLD_EPM7128_test -c CPLD_EPM7128_test
+quartus_asm --read_settings_files=on --write_settings_files=off CPLD_EPM7128_test -c CPLD_EPM7128_test
+
+
+

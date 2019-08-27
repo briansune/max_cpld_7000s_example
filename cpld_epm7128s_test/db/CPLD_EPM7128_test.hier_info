@@ -1,0 +1,21 @@
+|test
+clock => counter[0].CLK
+clock => counter[1].CLK
+clock => counter[2].CLK
+clock => counter[3].CLK
+clock => counter[4].CLK
+clock => counter[5].CLK
+clock => counter[6].CLK
+clock => counter[7].CLK
+clock => counter[8].CLK
+clock => counter[9].CLK
+clock => counter[10].CLK
+clock => counter[11].CLK
+clock => counter[12].CLK
+clock => counter[13].CLK
+clock => counter[14].CLK
+clock => counter[15].CLK
+reset => always0.IN0
+led <= counter[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
